@@ -1,3 +1,4 @@
+import CommitmentHub from "../components/CommunityHub"
 import Countdown from "../components/Countdown"
 import Hero from "../components/Hero"
 
@@ -6,6 +7,7 @@ const Home = () => {
         <>
             <Hero />
             <Countdown />
+            <CommitmentHub />
         </>
     )
 }

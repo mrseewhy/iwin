@@ -31,7 +31,12 @@ export default function Navbar() {
 
                     <NavLink
                         to="/pledge"
-                        className="bg-green-700 text-white px-4 py-2 rounded-lg hover:bg-green-800 transition font-medium"
+                        className={({ isActive }) =>
+                            `px-4 py-2 rounded-lg font-medium transition ${isActive
+                                ? "bg-green-900 text-white"
+                                : "bg-green-700 text-white hover:bg-green-800"
+                            }`
+                        }
                     >
                         Pledge
                     </NavLink>
