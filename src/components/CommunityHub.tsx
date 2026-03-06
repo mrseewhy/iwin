@@ -40,7 +40,7 @@ export default function CommitmentHub() {
                         iconBg="bg-green-100"
                         iconColor="text-green-700"
                         title="Get your PVC"
-                        description="Register and collect your Permanent Voter's Card before the deadline."
+                        description="Register and collect your Permanent Voter's Card before the deadline..."
                         step="01"
                     />
 
