@@ -10,7 +10,7 @@ type Props = {
 // TEMPLATE — swap URL here when design updates
 // Canvas is 1000×1000 to match the template exactly
 // ─────────────────────────────────────────────────────────────
-const TEMPLATE_URL = "https://res.cloudinary.com/dcdychfzw/image/upload/v1772784293/IWillVote2027_1_fhrstl.png"
+const TEMPLATE_URL = "https://res.cloudinary.com/dcdychfzw/image/upload/v1772785663/IWillVote2027_3_biefr4.png"
 const CANVAS_SIZE = 1000
 
 // ─────────────────────────────────────────────────────────────
