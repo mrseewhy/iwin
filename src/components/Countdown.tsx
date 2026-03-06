@@ -34,7 +34,7 @@ export default function Countdown() {
 
     return (
         // pb-36 gives room for the CommitmentHub cards to overlap up into this section
-        <section className="relative bg-green-900 text-white pt-20 pb-56 overflow-hidden">
+        <section className="relative bg-green-900 text-white pt-20 pb-56 overflow-hidden px-12">
 
             {/* Decorative background rings */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full border border-white/5 pointer-events-none" />
@@ -85,7 +85,7 @@ type TimeBoxProps = {
 function TimeBox({ value, label }: TimeBoxProps) {
     return (
         <div className="flex flex-col items-center bg-white/10 backdrop-blur border border-white/20 rounded-2xl px-5 py-5 min-w-[80px] md:min-w-[110px]">
-            <span className="text-4xl md:text-5xl font-extrabold text-white tabular-nums leading-none">
+            <span className="text-3xl md:text-5xl font-extrabold text-white tabular-nums leading-none">
                 {String(value).padStart(2, "0")}
             </span>
             <span className="text-[10px] uppercase tracking-widest text-white/60 mt-2">
