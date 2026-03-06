@@ -60,7 +60,7 @@ export default function Countdown() {
                 </p>
 
                 {/* Timer boxes */}
-                <div className="flex justify-center gap-4 md:gap-6">
+                <div className="flex justify-center gap-2 md:gap-6 px-10">
                     <TimeBox value={timeLeft.days} label="Days" />
                     <Separator />
                     <TimeBox value={timeLeft.hours} label="Hours" />
@@ -85,7 +85,7 @@ type TimeBoxProps = {
 function TimeBox({ value, label }: TimeBoxProps) {
     return (
         <div className="flex flex-col items-center bg-white/10 backdrop-blur border border-white/20 rounded-2xl px-5 py-5 min-w-[80px] md:min-w-[110px]">
-            <span className="text-3xl md:text-5xl font-extrabold text-white tabular-nums leading-none">
+            <span className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-white tabular-nums leading-none">
                 {String(value).padStart(2, "0")}
             </span>
             <span className="text-[10px] uppercase tracking-widest text-white/60 mt-2">
