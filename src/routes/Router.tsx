@@ -5,6 +5,7 @@ import Pledge from "../pages/Pledge"
 import AdminLogin from "../pages/admin/AdminLogin"
 import AdminDashboard from "../pages/admin/AdminDashboard"
 import AdminRoute from "../components/admin/AdminRoute"
+import NotFound from "../pages/NotFound"
 
 export const router = createBrowserRouter([
     // ── Public site ──────────────────────────────────────────
@@ -30,4 +31,8 @@ export const router = createBrowserRouter([
             </AdminRoute>
         ),
     },
+    {
+        path: "*",
+        element: <NotFound />,
+    }
 ])
