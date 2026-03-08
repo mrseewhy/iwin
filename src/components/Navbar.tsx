@@ -7,7 +7,7 @@ export default function Navbar() {
 
                 {/* Logo */}
                 <NavLink to="/" className="text-lg font-extrabold tracking-tight text-white">
-                    IWillVote<span className="text-green-400">2027</span>
+                    IWillVoteIn<span className="text-green-400">2027</span>
                 </NavLink>
 
                 {/* Nav links */}
