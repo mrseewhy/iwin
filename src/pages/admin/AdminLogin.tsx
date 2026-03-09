@@ -36,7 +36,7 @@ export default function AdminLogin() {
                 {/* Logo */}
                 <div className="text-center mb-8">
                     <p className="text-2xl font-extrabold tracking-tight text-white">
-                        IWillVote<span className="text-green-400">2027</span>
+                        IWillVoteIn<span className="text-green-400">2027</span>
                     </p>
                     <p className="text-white/40 text-sm mt-1">Admin Dashboard</p>
                 </div>
