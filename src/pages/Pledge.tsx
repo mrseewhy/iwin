@@ -34,7 +34,7 @@ export default function PledgePage() {
             <div className="bg-green-900 text-white py-3 text-center text-xs font-semibold tracking-widest uppercase">
                 <span className="inline-flex items-center gap-2">
                     <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
-                    February 25, 2027 — Election Day
+                    January 16, 2027 — Presidential Election Day
                     <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
                 </span>
             </div>

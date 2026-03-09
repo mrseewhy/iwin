@@ -97,7 +97,7 @@ export default function NotFound() {
             {/* Bottom branding */}
             <div className="absolute bottom-6 left-0 right-0 text-center">
                 <p className="text-white/20 text-xs font-semibold tracking-widest uppercase">
-                    IWillVote<span className="text-green-400/50">2027</span>
+                    IWillVoteIn<span className="text-green-400/50">2027</span>
                 </p>
             </div>
 

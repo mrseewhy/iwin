@@ -131,7 +131,7 @@ export default function PledgeBadge({ data }: Props) {
             const form = new FormData()
             form.append("file", blob, `badge-${Date.now()}.png`)
             form.append("upload_preset", uploadPreset)
-            form.append("folder", "iwillvote2027/badges")
+            form.append("folder", "iwillvotein2027/badges")
 
             const res = await fetch(
                 `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`,
@@ -156,7 +156,7 @@ export default function PledgeBadge({ data }: Props) {
         const canvas = canvasRef.current
         if (!canvas) return
         const a = document.createElement("a")
-        a.download = `IWillVote2027-${data.name.replace(/\s+/g, "-")}.png`
+        a.download = `IWillVoteIn2027-${data.name.replace(/\s+/g, "-")}.png`
         a.href = canvas.toDataURL("image/png")
         a.click()
     }
@@ -169,12 +169,12 @@ export default function PledgeBadge({ data }: Props) {
             canvas.toBlob(resolve, "image/png"),
         )
         if (!blob) return
-        const file = new File([blob], `IWillVote2027-${data.name.replace(/\s+/g, "-")}.png`, {
+        const file = new File([blob], `IWillVoteIn2027-${data.name.replace(/\s+/g, "-")}.png`, {
             type: "image/png",
         })
         if (navigator.canShare?.({ files: [file] })) {
             await navigator.share({
-                title: "I Will Vote in 2027",
+                title: "I Will Vote In 2027",
                 text: "I just pledged to vote in the 2027 Nigerian elections! #IWillVote2027",
                 files: [file],
             }).catch(() => { })
@@ -189,10 +189,10 @@ export default function PledgeBadge({ data }: Props) {
             return
         }
 
-        const url = await uploadBadge() ?? "https://iwillvote2027.ng"
+        const url = await uploadBadge() ?? "https://iwillvotein2027.ng"
         const eurl = encodeURIComponent(url)
         const text = encodeURIComponent(
-            "I just pledged to vote in the 2027 Nigerian elections! Join me. #IWillVote2027",
+            "I just pledged to vote in the 2027 Nigerian elections! Join me. #IWillVoteIn2027",
         )
 
         const links: Record<string, string> = {
