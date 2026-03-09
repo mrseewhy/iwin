@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 
-const SITE_URL = "https://iwillvote2027.ng"
+const SITE_URL = "https://iwillvotein2027.ng"
 
 const shareLinks = {
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(SITE_URL)}`,
-    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent("I'm pledging to vote in the 2027 Nigerian elections! Join me. #IWillVote2027")}&url=${encodeURIComponent(SITE_URL)}`,
+    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent("I'm pledging to vote in the 2027 Nigerian elections! Join me. #IWillVoteIn2027")}&url=${encodeURIComponent(SITE_URL)}`,
     linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(SITE_URL)}`,
-    telegram: `https://t.me/share/url?url=${encodeURIComponent(SITE_URL)}&text=${encodeURIComponent("I'm pledging to vote in 2027! #IWillVote2027")}`,
+    telegram: `https://t.me/share/url?url=${encodeURIComponent(SITE_URL)}&text=${encodeURIComponent("I'm pledging to vote in 2027! #IWillVoteIn2027")}`,
     whatsapp: `https://wa.me/?text=${encodeURIComponent("I'm pledging to vote in the 2027 Nigerian elections! Join me here: " + SITE_URL)}`,
 }
 

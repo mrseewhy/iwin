@@ -7,7 +7,7 @@ type TimeLeft = {
     seconds: number
 }
 
-const targetDate = new Date("Feb 25, 2027 00:00:00").getTime()
+const targetDate = new Date("Jan 16, 2027 00:00:00").getTime()
 
 export default function Countdown() {
 
@@ -53,7 +53,7 @@ export default function Countdown() {
 
                 {/* Headline */}
                 <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-2">
-                    February 25, 2027
+                    January 16, 2027
                 </h2>
                 <p className="text-white/60 text-sm mb-12">
                     Your vote will shape the next chapter of Nigeria's story

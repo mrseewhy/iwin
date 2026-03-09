@@ -129,10 +129,10 @@ export default function Footer() {
 
             {/* Bottom bar */}
             <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/40">
-                <p>© {new Date().getFullYear()} I Will Vote 2027. All rights reserved.</p>
+                <p>© {new Date().getFullYear()} I Will Vote In 2027. All rights reserved.</p>
                 <div className="flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse" />
-                    <span>#IWillVote2027</span>
+                    <span>#IWillVoteIn2027</span>
                 </div>
             </div>
 

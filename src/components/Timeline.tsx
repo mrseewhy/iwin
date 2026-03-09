@@ -61,7 +61,7 @@ const steps: StepData[] = [
         number: "04",
         title: "Vote in 2027",
         description:
-            "On February 25, 2027, go to your polling unit and cast your vote. This is the moment everything leads to.",
+            "On January 16, 2027, go to your polling unit and cast your vote. This is the moment everything leads to.",
         icon: (
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8}
@@ -69,7 +69,7 @@ const steps: StepData[] = [
             </svg>
         ),
         status: "destination",
-        tag: "Feb 25, 2027",
+        tag: "Jan 16, 2027",
     },
 ]
 
