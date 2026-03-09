@@ -120,7 +120,7 @@ export default function Hero() {
                     {/* Floating badge — mid right */}
                     <div className="absolute bottom-24 right-0 z-20 bg-green-700 text-white rounded-2xl shadow-xl px-4 py-3">
                         <p className="text-xs font-bold">🗳️ My vote counts</p>
-                        <p className="text-[10px] opacity-80 mt-0.5">#IWillVote2027</p>
+                        <p className="text-[10px] opacity-80 mt-0.5">#IWillVoteIn2027</p>
                     </div>
 
                 </div>
