@@ -171,8 +171,8 @@ export default function PledgeForm({ onSubmit, isSubmitting }: Props) {
                             onClick={() => fileInputRef.current?.click()}
                             disabled={isSubmitting}
                             className={`w-full border-2 border-dashed rounded-2xl py-8 flex flex-col items-center gap-2 transition-colors group ${errors.photoDataUrl
-                                    ? "border-red-300 bg-red-50"
-                                    : "border-gray-200 hover:border-green-400 bg-gray-50 hover:bg-green-50"
+                                ? "border-red-300 bg-red-50"
+                                : "border-gray-200 hover:border-green-400 bg-gray-50 hover:bg-green-50"
                                 }`}
                         >
                             <div className={`w-14 h-14 rounded-full flex items-center justify-center transition-colors ${errors.photoDataUrl ? "bg-red-100" : "bg-white group-hover:bg-green-100"
@@ -210,7 +210,7 @@ export default function PledgeForm({ onSubmit, isSubmitting }: Props) {
                 <Field label="Full Name" error={errors.name} required>
                     <input
                         type="text"
-                        placeholder="e.g. Amara Okafor"
+                        placeholder="Enter your name or nickname"
                         value={fields.name}
                         onChange={(e) => set("name", e.target.value)}
                         disabled={isSubmitting}
@@ -259,10 +259,10 @@ export default function PledgeForm({ onSubmit, isSubmitting }: Props) {
 
                 {/* Commitment checkbox */}
                 <div className={`rounded-2xl border-2 p-4 transition-colors ${fields.committedToVote
-                        ? "border-green-400 bg-green-50"
-                        : errors.committedToVote
-                            ? "border-red-300 bg-red-50"
-                            : "border-gray-200 bg-gray-50"
+                    ? "border-green-400 bg-green-50"
+                    : errors.committedToVote
+                        ? "border-red-300 bg-red-50"
+                        : "border-gray-200 bg-gray-50"
                     }`}>
                     <label className="flex items-start gap-3 cursor-pointer">
                         <input
@@ -305,8 +305,8 @@ export default function PledgeForm({ onSubmit, isSubmitting }: Props) {
                                     disabled={isSubmitting}
                                     onClick={() => set("willEngage", val)}
                                     className={`flex-1 py-3 rounded-xl text-sm font-bold border-2 transition-all duration-200 ${active
-                                            ? "border-green-500 bg-green-50 text-green-800"
-                                            : "border-gray-200 bg-white text-gray-500 hover:border-green-300"
+                                        ? "border-green-500 bg-green-50 text-green-800"
+                                        : "border-gray-200 bg-white text-gray-500 hover:border-green-300"
                                         }`}
                                 >
                                     {option}
@@ -333,8 +333,8 @@ export default function PledgeForm({ onSubmit, isSubmitting }: Props) {
                                     disabled={isSubmitting}
                                     onClick={() => set("reachCategory", opt.value)}
                                     className={`flex flex-col items-center gap-1 py-3 px-2 rounded-xl border-2 text-xs font-semibold transition-all duration-200 ${active
-                                            ? "border-green-500 bg-green-50 text-green-800"
-                                            : "border-gray-200 bg-white text-gray-500 hover:border-green-300"
+                                        ? "border-green-500 bg-green-50 text-green-800"
+                                        : "border-gray-200 bg-white text-gray-500 hover:border-green-300"
                                         }`}
                                 >
                                     <span className="text-yellow-400 text-sm tracking-tight">
