@@ -132,7 +132,7 @@ export default function Footer() {
                 <p>© {new Date().getFullYear()} I Will Vote In 2027. All rights reserved.</p>
                 <div className="flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse" />
-                    <span>#IWillVoteIn2027</span>
+                    <span>#IWillVoteIn2027!</span>
                 </div>
             </div>
 
